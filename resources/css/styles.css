@@ -1,0 +1,236 @@
+@font-face {
+    font-family: GothamBold;
+    src: url(../../vendors/font/gothamhtf-bold-webfont.ttf);
+}
+
+@font-face {
+    font-family: GothamBook;
+    src: url(../../vendors/font/gothamhtf-book-webfont.ttf);
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    width: 1440px;
+}
+
+/* ------------------------------------------------------- */
+/* -----------------------SLICE--------------------------- */
+/* ------------------------------------------------------- */
+
+.slice{
+    background-image: url('/resources/img/Image1.jpg');
+    margin-top: 0%;
+    margin-bottom: 0px;
+    position: relative;
+    height: 1040px;
+}
+
+.heading-main-text{
+    font-family: GothamBold;
+    font-size: 400%;
+    letter-spacing: 6px;
+    position: absolute;
+    top: 350px;
+    left: 440px;
+}
+
+.main-nav li a{
+    text-decoration: none;
+    color: black;
+    font-family: GothamBook;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 45px;
+    position: relative;
+    left: 50px;
+    top: 150px;
+    transition: border-bottom 0.5s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active{
+    border-bottom: 2px solid grey;
+}
+
+/* ------------------------------------------------------- */
+/* -----------------------BANNER-------------------------- */
+/* ------------------------------------------------------- */
+
+.banner{
+    margin-top: -190px;
+}
+
+.banner-left{
+    position: relative;
+}
+
+.img-left{
+    width: 720px;
+    height: 720px;
+    float: left;
+}
+
+.text-left{
+    color: white;
+    font-family: GothamBold;
+    font-size: 50px;
+    position: absolute;
+    top: 335px;
+    left: 150px;
+}
+
+.banner-right{
+    position: relative;
+}
+
+.img-right{
+    width: 720px;
+    height: 720px;
+    float: left;
+}
+
+.text-right{
+    color: white;
+    font-family: GothamBold;
+    font-size: 30px;
+    position: absolute;
+    top: 320px;
+    left: 950px;
+}
+
+.text-right .t1{
+    font-size: 60px;
+}
+
+/* ------------------------------------------------------- */
+/* --------------------TAG PHOTO-------------------------- */
+/* ------------------------------------------------------- */
+
+.tag-photo{
+    position: relative;
+    top: 26px;
+}
+
+.text-tag{
+    text-transform: uppercase;
+    font-family: GothamBook;
+    font-size: 17px;
+    letter-spacing: 2px;
+    text-align: center;
+    padding: 26px;
+}
+
+/* ------------------------------------------------------- */
+/* ----------------------FOOTER--------------------------- */
+/* ------------------------------------------------------- */
+
+.footer{
+    position: relative;
+    top: 50px;
+}
+
+/* Left */
+.footer-left{
+    position: relative;
+    left: 95px;
+    font-family: GothamBold;
+    font-size: 17px;
+    width: 1190px;
+    float: left;
+}
+
+#search{
+    width: 490px;
+    height: 48px;
+}
+
+.btn{
+    font-family: GothamBold;
+    font-size: 12px;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 17px;
+}
+
+.btn:hover,
+.btn:active{
+    background-color: #2812a5;
+    transition: 0.5s;
+}
+
+.footer-left li{
+    position: relative;
+    top: 30px;
+    width: 50px;
+    display: inline-block;
+}
+
+.footer-left li a{
+    font-size: 30px;
+    color: black;
+}
+
+.footer-left li a:hover,
+.footer-left li a:active{
+    color: #2812a5;
+    transition: 0.5s;
+}
+
+/* Right */
+.footer-right{
+    width: 250px;
+    float: left;
+    font-family: GothamBook;
+    font-size: 12px;
+}
+
+.customer-care{
+    font-family: GothamBold;
+    font-size: 17px;
+}
+
+.footer-right li{
+    list-style: none;
+}
+
+.footer-right li a{
+    text-decoration: none;
+    line-height: 22px;
+    display: block;
+}
+
+.footer-right li a:hover,
+.footer-right li a:active{
+    color: #2500f7;
+    transition: 0.5s;
+}
+
+/* Bottom */
+.footer-bottom{
+    position: relative;
+    top: 70px;
+    text-align: center;
+}
+
+.footer-bottom li{
+    display: inline;
+    width: auto;
+    padding: 5px;
+}
+
+.footer-bottom li a{
+    border-right: black solid 1px;
+    padding-right: 10px;
+    text-decoration: none;
+    font-family: GothamBook;
+    font-size: 11px;
+}
+
+.footer-bottom li a:hover,
+.footer-bottom li a:active{
+    color: #2500f7;
+    transition: 0.5s;
+}
